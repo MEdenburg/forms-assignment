@@ -44,16 +44,6 @@ body {
 
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: end;
-    max-width: 400px;
-    box-sizing: border-box;
-    position: relative;
-} 
-
 .box-height {
     height: 72px;
     display: flex;
@@ -66,33 +56,25 @@ body {
 }
 
 .email-box {
-    position: absolute;
     top: 158px;
-    left: 65px;
     max-width: 160px;
     width: 100%;
     border-bottom: 1px solid #9DBEBB;
     
 }
 
-.name-box {
-    position: absolute;
-    left: 65px;
+.name-box {  
     top: 64px;
     border-bottom: 1px solid #9DBEBB;
 }
 
 .message-box {
-   position: absolute;
-   left: 65px;
    top: 354px;
    border-bottom: 1px solid #9DBEBB;
 }
 
 .regarding-box {
-    position: absolute;
     top: 261px;
-    left: 65px;
     border-bottom: 1px solid #9DBEBB;
 }
 
