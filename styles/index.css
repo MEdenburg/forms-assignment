@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FEFFFF;
+    background: #9DBEBB;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;  
+}
+
+.container1 {
+   display: flex;
+   position: relative;
+   left: 243px;
+   top: 153px;
+   max-width: 954px;
+   
+}
+
+.container1-left {
+    display: flex;
+    background: #BE0909;
+    max-width: 609px;
+    width: 100%;
+    min-height: 594px;
+    height: 100%;
+   
+}
+
+.container1-right {
+    background: #FFB039;
+    max-width: 345px;
+    width: 100%;
+    min-height: 594px;
+    height: 100%;
+}
+
+.img-duck {
+    position: absolute;   
+    top: 52px;
+    left: 342px;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: end;
+    max-width: 400px;
+    box-sizing: border-box;
+    position: relative;
+} 
+
+.box-height {
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-width {
+    max-width: 400px;
+    width: 100%;
+}
+
+.email-box {
+    position: absolute;
+    top: 158px;
+    left: 65px;
+    max-width: 160px;
+    width: 100%;
+    border-bottom: 1px solid #9DBEBB;
+    
+}
+
+.name-box {
+    position: absolute;
+    left: 65px;
+    top: 64px;
+    border-bottom: 1px solid #9DBEBB;
+}
+
+.message-box {
+   position: absolute;
+   left: 65px;
+   top: 354px;
+   border-bottom: 1px solid #9DBEBB;
+}
+
+.regarding-box {
+    position: absolute;
+    top: 261px;
+    left: 65px;
+    border-bottom: 1px solid #9DBEBB;
+}
+
+button {
+    position: absolute;
+    top: 482px;
+    left: 164px;
+    width: 202px;
+    height: 48px;
+    background: #468189;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.input-field {
+    height: 51px;
+    background-color:#BE0909;
+    border: none;
+    letter-spacing: 0.3em;
+}
+
+.input-field::placeholder {
+    color:  #FDFFFF;
+
+}
