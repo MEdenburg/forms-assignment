@@ -104,3 +104,8 @@ button {
     color:  #FDFFFF;
 
 }
+
+.box-pos {
+    position: absolute;
+    left: 65px;
+}
