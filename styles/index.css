@@ -115,6 +115,7 @@ button {
     background-color:#BE0909;
     border: none;
     letter-spacing: 0.3em;
+    color: #FEFFFF;
 }
 
 .input-field::placeholder {
