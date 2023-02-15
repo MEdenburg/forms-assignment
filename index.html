@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Duck-form</title>
+</head>
+<body>
+    <main>
+        <div class="container1">
+            <div class="container1-left">
+                <form action="form">
+                    <div class="box-height box-width name-box">
+                        <label for="name" class="label">FULL NAME</label>
+                        <input type="text" name="name" id="name" class="input-field" required autofocus>
+                    </div>
+                    <div class="box-height email-box">
+                        <label for="email" class="label"> EMAIL</label>
+                        <input type="email" name="email" id="email" class="input-field" placeholder="Your Email" required >
+                    </div>
+                    <div class="box-height regarding-box">
+                        <label for="text" class="label">MESSAGE REGARDING</label>
+                        <input type="text" name="message-topic" id="message-topic" class="input-field" required>
+                        </div>
+                    <div class="box-height box-width message-box">
+                        <label for="text" class="label label-msg">MESSAGE</label>
+                        <input type="text" name="message" id="message" class="input-field" placeholder="Your Message" required>
+                    </div>
+                    <button type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+            <div class="container1-right"></div>
+            <div class="img-duck"><img src="images/img-duck.png" alt="duck"></div>
+        </div>
+    </main>
+</body>
+</html>
